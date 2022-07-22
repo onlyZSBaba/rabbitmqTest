@@ -1,0 +1,14 @@
+server:
+  port: 18022
+spring:
+  #给项目来个名字
+  application:
+    name: rabbitmq
+  #配置rabbitMq 服务器
+  rabbitmq:
+    host: 192.168.1.20
+    port: 5672
+    username: istmqname
+    password: istmqpword
+    #虚拟host 可以不设置,使用server默认host
+    #virtual-host: vhost_test
